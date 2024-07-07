@@ -6,7 +6,7 @@ const app = Vue.createApp({
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quis.',
             image: './assets/images/socks_green.jpg',
             url: 'https://www.vuemastery.com/',
-            inventory: 10,
+            inventory: 0,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
                 {id: 2234, color: 'green', image: './assets/images/socks_green.jpg'},
