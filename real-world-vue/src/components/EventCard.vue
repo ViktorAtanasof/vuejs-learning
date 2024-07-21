@@ -9,8 +9,8 @@ defineProps({
 
 <template>
   <div class="event-card">
-    <h2>{{ event.title }}</h2>
-    <span>@{{ event.time }} on {{ event.date }}</span>
+    <h2>{{ event.strMeal }}</h2>
+    <span>Meal</span>
   </div>
 </template>
 
